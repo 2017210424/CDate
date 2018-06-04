@@ -49,6 +49,7 @@ public:
 		year = a;
 		month = b;
 		day = 3;
+		cout << "派生类构造函数" << year << "年" << month << "月" << day << "日" << endl;
 	}
 };
 int main()
